@@ -2,6 +2,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background: #f6f6f6;
 }
 
 h1,
@@ -127,7 +128,7 @@ h4 {
 }
 .hero-info button {
     border: none;
-    padding: 10px 10px;
+    padding: 15px 12px;
     color: #ffffffed;
     background: #2196F3;
     font-size: 13px;
@@ -135,9 +136,104 @@ h4 {
     cursor: pointer;
     transition: .4s;
     border-radius: 4px;
+    margin-top: 15px;
 }
 
 .hero-info button:hover {
     background: #ff5200;
     transition: .4s;
+}
+/* =================================================================================== */
+/* counter section */
+.all-counter {
+    padding: 10px;
+    background: lavender;
+    border-radius: 13px;
+    margin: 50px 0px;
+}
+
+h1.join-div {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 25px;
+}
+.counter-contet {
+    display: flex;
+    justify-content: space-around;
+    padding: 27px 0px;
+    padding-bottom: 40px;
+}
+
+.single-counter {
+    text-align: center;
+}
+
+.single-counter h1 {
+    font-size: 38px;
+    color: #3F51B5;
+    font-weight: 800;
+}
+
+.single-counter p {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    color: #242424b5;
+}
+/* ========================================================== */
+/* about section */
+.about-info {
+    padding: 50px 0px;
+}
+
+h1.about-header {
+    text-align: center;
+    font-size: 38px;
+    color: #000000c4;
+}
+
+.all-about-card {
+    margin-top: 35px;
+    display: flex;
+    gap: 31px;
+}
+
+.about-single {background: white;border-radius: 7px;padding: 22px;}
+
+.about-single h3 {
+    margin-top: 15px;
+    font-size: 19px;
+}
+
+.about-single {}
+
+.about-single p {
+    margin-top: 10px;
+    color: #0000006b;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.about-img {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.about-img img {border-radius: 51%;}
+
+.aout-img-ingo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aout-img-ingo p {
+    margin-top: inherit;
+    text-transform: capitalize;
+}
+
+.aout-img-ingo h5 {
+    color: #000000c2;
 }
