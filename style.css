@@ -126,6 +126,7 @@ h4 {
     font-family: 'Inter';
     line-height: 21px;
 }
+
 .hero-info button {
     border: none;
     padding: 15px 12px;
@@ -143,6 +144,7 @@ h4 {
     background: #ff5200;
     transition: .4s;
 }
+
 /* =================================================================================== */
 /* counter section */
 .all-counter {
@@ -157,6 +159,7 @@ h1.join-div {
     padding: 10px 0px;
     font-size: 25px;
 }
+
 .counter-contet {
     display: flex;
     justify-content: space-around;
@@ -180,6 +183,7 @@ h1.join-div {
     font-weight: 500;
     color: #242424b5;
 }
+
 /* ========================================================== */
 /* about section */
 .about-info {
@@ -198,7 +202,11 @@ h1.about-header {
     gap: 31px;
 }
 
-.about-single {background: white;border-radius: 7px;padding: 22px;}
+.about-single {
+    background: white;
+    border-radius: 7px;
+    padding: 22px;
+}
 
 .about-single h3 {
     margin-top: 15px;
@@ -221,7 +229,9 @@ h1.about-header {
     margin-bottom: 10px;
 }
 
-.about-img img {border-radius: 51%;}
+.about-img img {
+    border-radius: 51%;
+}
 
 .aout-img-ingo {
     display: flex;
@@ -237,6 +247,7 @@ h1.about-header {
 .aout-img-ingo h5 {
     color: #000000c2;
 }
+
 /* =================================================================== */
 /* focus section */
 .focus-content {
@@ -258,6 +269,7 @@ h1.about-header {
     color: #00000085;
     font-weight: 500;
 }
+
 .focus-img img {
     margin: 48px 0px;
     border-radius: 25px;
@@ -275,4 +287,108 @@ h1.about-header {
     border-radius: 7px;
     margin-top: 4px;
     cursor: pointer;
+}
+
+/* ================================================================================= */
+/* inform section */
+.inform-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inform-form {
+    display: flex;
+    flex-direction: column;
+    width: 387px;
+    line-height: 24px;
+}
+
+.inform-text h1 {
+    font-size: 43px;
+    width: 358px;
+}
+
+.inform-form label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000bf;
+}
+
+.inform-form input {
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #0000001c;
+    background: white;
+    outline: none;
+}
+
+label.input-name {
+    margin-top: 15px;
+}
+
+.inform-form textarea {
+    padding: 11px;
+    width: 100%;
+    height: 97px;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    outline: none;
+}
+
+label.input-msg {
+    margin-top: 15px;
+}
+
+.inform-form button {
+    margin-top: 21px;
+    border: none;
+    background: #2196F3;
+    color: #ffffffe8;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 14px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ========================================================================= */
+/* footer section */
+footer#footer-section {
+    background: white;
+    margin-top: 19px;
+    height: 400px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 115px;
+}
+
+.footer-content h1 {
+    text-transform: uppercase;
+    font-size: 47px;
+    font-weight: 800;
+    color: #03A9F4;
+}
+
+.footer-content p {
+    padding: 5px 265px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #00000073;
+}
+
+.footer-list ul {
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+    gap: 28px;
+    margin-top: 9px;
+    font-weight: 600;
+    color: #5127279c;
+    font-size: 15px;
 }
